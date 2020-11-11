@@ -2,6 +2,7 @@ version: "3"
 services:
   nodeapp:
     build: .
+    restart: always
     depends_on:
       - postgres
     environment:
