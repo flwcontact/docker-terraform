@@ -3,7 +3,11 @@ Testing Docker, Docker Compose and Terraform
 
 ## Docker and docker-compose
 
-This a is basic noejs application with a hello message. It also contains a test to check database connection. To run it in your local machine, run: `docker-compose up`
+This a is basic noejs application with a hello message. It also contains a test to check database connection. 
+
+To run it in your local machine, run: 
+
+`docker-compose up`
 
 To test it, point your browser to:
 
@@ -37,3 +41,7 @@ There are many different CI/CD tools (Jenkins, Spinnaker, ArgoCD, CircleCI, etc)
 - Not storing on config files or in the code repository
 - Using environment variables (I did this in this service just as an example)
 - Storing credentials in a credential management tool
+
+## Terraform
+
+Check the Terraform Readme in the [Terraform dir](terraform/)
