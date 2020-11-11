@@ -6,9 +6,13 @@ services:
       - postgres
     environment:
       PORT: 8080
+      DBUSER: postgres
+      DBHOST: postgres
+      DBPASSWORD: postgres
     ports:
       - "8080:8080"
   postgres:
     image: postgres:13.0-alpine
+    restart: always
     environment:
       POSTGRES_PASSWORD: postgres
