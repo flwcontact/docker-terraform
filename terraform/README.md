@@ -13,7 +13,9 @@ Notes:
 To create the whole structure is necessary to run the commands below in each service respository (s3, vpc and iam):
 
 `terraform init`
+
 `terraform plan`
+
 `terraform apply`
 
 
