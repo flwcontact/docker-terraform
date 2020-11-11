@@ -1,0 +1,13 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "API with Node.js, Express, and PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "pg": "^8.4.1"
+  }
+}
