@@ -30,6 +30,6 @@ resource "aws_iam_policy" "s3-rw-policy" {
 }
 
 resource "aws_iam_role_policy_attachment" "attach-s3-rw-policy-to-role" {
-  role       = aws_iam_role.rw-s3-fake-product-assets.name
+  role       = aws_iam_role.fake-product.name
   policy_arn = aws_iam_policy.s3-rw-policy.arn
 }

@@ -1,10 +1,10 @@
-resource "aws_iam_instance_profile" "rw-s3-fake-product-assets" {
-  name = "rw-s3-fake-product-assets"
-  role = aws_iam_role.rw-s3-fake-product-assets.name
+resource "aws_iam_instance_profile" "fake-product" {
+  name = "fake-product"
+  role = aws_iam_role.fake-product.name
 }
 
-resource "aws_iam_role" "rw-s3-fake-product-assets" {
-  name = "rw-s3-fake-product-assets"
+resource "aws_iam_role" "fake-product" {
+  name = "fake-product"
   path = "/"
 
   assume_role_policy = <<EOF

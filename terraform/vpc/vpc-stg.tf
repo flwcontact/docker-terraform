@@ -1,4 +1,4 @@
-module "vpc" {
+module "vpc-stg" {
   source = "../modules/vpc"
   create_vpc     = true
   vpc_cidr_block = "10.234.0.0/16"
